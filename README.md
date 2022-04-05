@@ -1,18 +1,18 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: ![Vulnerability 1](https://user-images.githubusercontent.com/72576906/161863165-1e0cff24-d059-495c-b2db-57bcf1c4f17d.gif)
+  - [ ] Steps to recreate: run 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 2. (Required) Vulnerability Name or ID
@@ -33,28 +33,12 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
-List any additional assets, such as scripts or files
+**a64.py**
+[a64.txt](https://github.com/jaychallangi/CodePathWeek7-8/files/8422307/a64.txt)
+
 
 ## Resources
 
